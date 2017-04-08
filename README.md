@@ -58,6 +58,8 @@ Because BIP9 is time based, BIP148 needs to account for the possibility for some
 ### How can we show support for BIP148?
 
 The best way to show support is to champion it through social media (Twitter, Facebook, etc...) and petition businesses and wallets to support it. Many users are also altering their node's user agent string to include BIP148.
+To signal #UASF on your node run before binaries are released:
+echo "uacomment=UASF-SegWit-BIP148" >> ~/.bitcoin/bitcoin.conf && bitcoin-cli stop && sleep 5 && bitcoind
 
 
 ### Can BIP148 be cancelled?
